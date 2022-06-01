@@ -1,0 +1,21 @@
+.dinheiro{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 5px;
+}
+.geral{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.valor{
+    color: black;
+}
+.total{
+    color: #FD377E;
+}
+.texto{
+    text-align: start;
+    font-size: 12px;
+}

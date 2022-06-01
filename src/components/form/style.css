@@ -1,0 +1,65 @@
+form {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+form button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  margin-top: 20px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  color: white;
+}
+form h3 {
+    text-align: start;
+}
+.descricao {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  gap: 10px;
+}
+.descricao input {
+  padding: 16px;
+  font-size: 16px;
+}
+.descricao span {
+  font-size: 13px;
+  text-align: start;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 100px;
+}
+.numero {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 190px;
+}
+.numero input{
+    padding: 16px;
+}
+.tipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 190px;
+}
+.tipo select{
+    padding: 16px;
+}
+input:focus{
+  outline: none;
+}

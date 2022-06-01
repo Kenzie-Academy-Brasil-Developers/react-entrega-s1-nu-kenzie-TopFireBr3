@@ -1,0 +1,40 @@
+.notList{
+  height: 250px;
+  width: auto;
+}
+button {
+  box-sizing: border-box;
+  color: #5b6166;
+  width: auto;
+  height: auto;
+  border: none;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.roza{
+  background-color: #FD377E;
+  color: white;
+}
+.filtroGeral2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.conteudo{
+  margin: 3% 0px 0px 0px;
+}
+.conteudo h2{
+  font-size: 22px;
+  margin-bottom: 3%;
+}
+
+
+.list{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 550px;
+  gap: 10px;
+}
